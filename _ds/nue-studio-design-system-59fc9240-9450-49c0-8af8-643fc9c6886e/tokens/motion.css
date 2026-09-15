@@ -1,0 +1,7 @@
+:root{
+  --ease-out:cubic-bezier(.22,.61,.36,1); /* @kind other */
+  --dur-hover:250ms; /* @kind other */
+  --dur-reveal:650ms; /* @kind other */
+  --dur-reveal-slow:800ms; /* @kind other */
+  --transition-hover:all var(--dur-hover) var(--ease-out);
+}

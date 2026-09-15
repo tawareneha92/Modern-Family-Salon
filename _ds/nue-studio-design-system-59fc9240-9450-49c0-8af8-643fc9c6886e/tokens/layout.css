@@ -1,0 +1,8 @@
+:root{
+  --container-max:1320px;
+  --container-narrow:1200px;
+  --measure:640px;
+  --accordion-max:660px;
+  --header-height:86px;
+  --border-width:1px; /* @kind other */
+}

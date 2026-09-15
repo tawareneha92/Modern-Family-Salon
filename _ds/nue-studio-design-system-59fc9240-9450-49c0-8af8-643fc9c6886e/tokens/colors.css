@@ -1,0 +1,48 @@
+:root{
+  /* Base palette */
+  --ivory:#F4F2EF;
+  --warm-white:#FAF9F7;
+  --espresso:#30221F;
+  --brown-dark:#241916;
+  --brown-hover:#44312C;
+  --gold:#B58B55;
+  --beige:#DFC5A5;
+  --taupe:#A89B92;
+  --border-grey:#D8D3CE;
+  --ink-1:#25201E;
+  --ink-2:#6F6863;
+  --ink-3:#938B85;
+  --ink-on-dark:#F6F1EB;
+  --line-dark:#3B3430;
+
+  /* Semantic surfaces */
+  --surface-page:var(--ivory);
+  --surface-raised:var(--warm-white);
+  --surface-card:var(--warm-white);
+  --surface-card-beige:var(--beige);
+  --surface-inverse:var(--espresso);
+  --surface-inverse-deep:var(--brown-dark);
+
+  /* Semantic text */
+  --text-primary:var(--ink-1);
+  --text-secondary:var(--ink-2);
+  --text-muted:var(--ink-3);
+  --text-on-dark:var(--ink-on-dark);
+  --text-on-dark-muted:rgba(246,241,235,.62);
+  --text-accent:var(--gold);
+
+  /* Lines & decoration */
+  --border-default:var(--border-grey);
+  --border-strong:var(--espresso);
+  --border-on-dark:rgba(246,241,235,.18);
+  --decor-line:var(--line-dark);
+  --decor-gold:var(--gold);
+
+  /* Interactive */
+  --btn-primary-bg:var(--espresso);
+  --btn-primary-bg-hover:var(--brown-hover);
+  --btn-primary-text:var(--ink-on-dark);
+  --btn-secondary-border:var(--espresso);
+  --btn-secondary-text:var(--espresso);
+  --focus-ring:var(--gold);
+}
